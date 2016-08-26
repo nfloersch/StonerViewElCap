@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0147D4A51D70763D00149142 /* StonerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0147D4A41D70763D00149142 /* StonerView.h */; };
+		0147D4A71D70763D00149142 /* StonerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147D4A61D70763D00149142 /* StonerView.m */; };
+		019762D51D70769B00552CFA /* Copying in Resources */ = {isa = PBXBuildFile; fileRef = 019762C51D70769B00552CFA /* Copying */; };
+		019762D61D70769B00552CFA /* English.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 019762C61D70769B00552CFA /* English.lproj */; };
+		019762D71D70769B00552CFA /* French.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 019762C71D70769B00552CFA /* French.lproj */; };
+		019762D81D70769B00552CFA /* general.h in Headers */ = {isa = PBXBuildFile; fileRef = 019762C81D70769B00552CFA /* general.h */; };
+		019762D91D70769B00552CFA /* history.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 019762C91D70769B00552CFA /* history.rtf */; };
+		019762DA1D70769B00552CFA /* Installation 'n Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 019762CA1D70769B00552CFA /* Installation 'n Readme.rtf */; };
+		019762DB1D70769B00552CFA /* Italian.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 019762CB1D70769B00552CFA /* Italian.lproj */; };
+		019762DC1D70769B00552CFA /* move.c in Sources */ = {isa = PBXBuildFile; fileRef = 019762CC1D70769B00552CFA /* move.c */; };
+		019762DD1D70769B00552CFA /* move.h in Headers */ = {isa = PBXBuildFile; fileRef = 019762CD1D70769B00552CFA /* move.h */; };
+		019762DE1D70769B00552CFA /* osc.c in Sources */ = {isa = PBXBuildFile; fileRef = 019762CE1D70769B00552CFA /* osc.c */; };
+		019762DF1D70769B00552CFA /* osc.h in Headers */ = {isa = PBXBuildFile; fileRef = 019762CF1D70769B00552CFA /* osc.h */; };
+		019762E01D70769B00552CFA /* README in Resources */ = {isa = PBXBuildFile; fileRef = 019762D01D70769B00552CFA /* README */; };
+		019762E11D70769B00552CFA /* StonerView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 019762D11D70769B00552CFA /* StonerView.nib */; };
+		019762E21D70769B00552CFA /* StonerView.pbproj in Resources */ = {isa = PBXBuildFile; fileRef = 019762D21D70769B00552CFA /* StonerView.pbproj */; };
+		019762E31D70769B00552CFA /* view.c in Sources */ = {isa = PBXBuildFile; fileRef = 019762D31D70769B00552CFA /* view.c */; };
+		019762E41D70769B00552CFA /* view.h in Headers */ = {isa = PBXBuildFile; fileRef = 019762D41D70769B00552CFA /* view.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0147D4A11D70763D00149142 /* Stoner.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stoner.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147D4A41D70763D00149142 /* StonerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StonerView.h; sourceTree = "<group>"; };
+		0147D4A61D70763D00149142 /* StonerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StonerView.m; sourceTree = "<group>"; };
+		0147D4A81D70763D00149142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019762C51D70769B00552CFA /* Copying */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Copying; sourceTree = "<group>"; };
+		019762C61D70769B00552CFA /* English.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = English.lproj; sourceTree = "<group>"; };
+		019762C71D70769B00552CFA /* French.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = French.lproj; sourceTree = "<group>"; };
+		019762C81D70769B00552CFA /* general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = general.h; sourceTree = "<group>"; };
+		019762C91D70769B00552CFA /* history.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = history.rtf; sourceTree = "<group>"; };
+		019762CA1D70769B00552CFA /* Installation 'n Readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Installation 'n Readme.rtf"; sourceTree = "<group>"; };
+		019762CB1D70769B00552CFA /* Italian.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Italian.lproj; sourceTree = "<group>"; };
+		019762CC1D70769B00552CFA /* move.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = move.c; sourceTree = "<group>"; };
+		019762CD1D70769B00552CFA /* move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = move.h; sourceTree = "<group>"; };
+		019762CE1D70769B00552CFA /* osc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = osc.c; sourceTree = "<group>"; };
+		019762CF1D70769B00552CFA /* osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osc.h; sourceTree = "<group>"; };
+		019762D01D70769B00552CFA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		019762D11D70769B00552CFA /* StonerView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = StonerView.nib; sourceTree = "<group>"; };
+		019762D21D70769B00552CFA /* StonerView.pbproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = StonerView.pbproj; sourceTree = "<group>"; };
+		019762D31D70769B00552CFA /* view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = view.c; sourceTree = "<group>"; };
+		019762D41D70769B00552CFA /* view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0147D49D1D70763D00149142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0147D4971D70763D00149142 = {
+			isa = PBXGroup;
+			children = (
+				0147D4A31D70763D00149142 /* Stoner */,
+				0147D4A21D70763D00149142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0147D4A21D70763D00149142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0147D4A11D70763D00149142 /* Stoner.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0147D4A31D70763D00149142 /* Stoner */ = {
+			isa = PBXGroup;
+			children = (
+				019762C51D70769B00552CFA /* Copying */,
+				019762C61D70769B00552CFA /* English.lproj */,
+				019762C71D70769B00552CFA /* French.lproj */,
+				019762C81D70769B00552CFA /* general.h */,
+				019762C91D70769B00552CFA /* history.rtf */,
+				019762CA1D70769B00552CFA /* Installation 'n Readme.rtf */,
+				019762CB1D70769B00552CFA /* Italian.lproj */,
+				019762CC1D70769B00552CFA /* move.c */,
+				019762CD1D70769B00552CFA /* move.h */,
+				019762CE1D70769B00552CFA /* osc.c */,
+				019762CF1D70769B00552CFA /* osc.h */,
+				019762D01D70769B00552CFA /* README */,
+				019762D11D70769B00552CFA /* StonerView.nib */,
+				019762D21D70769B00552CFA /* StonerView.pbproj */,
+				019762D31D70769B00552CFA /* view.c */,
+				019762D41D70769B00552CFA /* view.h */,
+				0147D4A41D70763D00149142 /* StonerView.h */,
+				0147D4A61D70763D00149142 /* StonerView.m */,
+				0147D4A81D70763D00149142 /* Info.plist */,
+			);
+			path = Stoner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0147D49E1D70763D00149142 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019762E41D70769B00552CFA /* view.h in Headers */,
+				019762DF1D70769B00552CFA /* osc.h in Headers */,
+				0147D4A51D70763D00149142 /* StonerView.h in Headers */,
+				019762D81D70769B00552CFA /* general.h in Headers */,
+				019762DD1D70769B00552CFA /* move.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0147D4A01D70763D00149142 /* Stoner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147D4AB1D70763D00149142 /* Build configuration list for PBXNativeTarget "Stoner" */;
+			buildPhases = (
+				0147D49C1D70763D00149142 /* Sources */,
+				0147D49D1D70763D00149142 /* Frameworks */,
+				0147D49E1D70763D00149142 /* Headers */,
+				0147D49F1D70763D00149142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stoner;
+			productName = Stoner;
+			productReference = 0147D4A11D70763D00149142 /* Stoner.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0147D4981D70763D00149142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nick Floersch";
+				TargetAttributes = {
+					0147D4A01D70763D00149142 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0147D49B1D70763D00149142 /* Build configuration list for PBXProject "Stoner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0147D4971D70763D00149142;
+			productRefGroup = 0147D4A21D70763D00149142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0147D4A01D70763D00149142 /* Stoner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0147D49F1D70763D00149142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019762DB1D70769B00552CFA /* Italian.lproj in Resources */,
+				019762E21D70769B00552CFA /* StonerView.pbproj in Resources */,
+				019762DA1D70769B00552CFA /* Installation 'n Readme.rtf in Resources */,
+				019762D61D70769B00552CFA /* English.lproj in Resources */,
+				019762E11D70769B00552CFA /* StonerView.nib in Resources */,
+				019762D51D70769B00552CFA /* Copying in Resources */,
+				019762D71D70769B00552CFA /* French.lproj in Resources */,
+				019762D91D70769B00552CFA /* history.rtf in Resources */,
+				019762E01D70769B00552CFA /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0147D49C1D70763D00149142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019762DE1D70769B00552CFA /* osc.c in Sources */,
+				019762DC1D70769B00552CFA /* move.c in Sources */,
+				019762E31D70769B00552CFA /* view.c in Sources */,
+				0147D4A71D70763D00149142 /* StonerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0147D4A91D70763D00149142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0147D4AA1D70763D00149142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0147D4AC1D70763D00149142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stoner/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.Stoner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		0147D4AD1D70763D00149142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stoner/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.Stoner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0147D49B1D70763D00149142 /* Build configuration list for PBXProject "Stoner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147D4A91D70763D00149142 /* Debug */,
+				0147D4AA1D70763D00149142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0147D4AB1D70763D00149142 /* Build configuration list for PBXNativeTarget "Stoner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147D4AC1D70763D00149142 /* Debug */,
+				0147D4AD1D70763D00149142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0147D4981D70763D00149142 /* Project object */;
+}
